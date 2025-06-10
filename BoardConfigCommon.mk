@@ -166,9 +166,6 @@ SOONG_CONFIG_samsungCameraVars_extra_ids := 54
 
 SOONG_CONFIG_samsungCameraVars_needs_sec_reserved_field := true
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_samsung_sm7325
-
 # HIDL manifests
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/manifest_lahaina.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
